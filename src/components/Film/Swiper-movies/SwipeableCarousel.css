@@ -1,0 +1,28 @@
+.container-swipere{
+margin: 0 4%;
+}
+.title-swiper{
+    color: white;
+    font-family: vazir-regular;
+    margin-top: 30px;
+}
+.swiper-img{
+    width: 180px;
+    border-radius: 5px;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    transition: all 0.3s;
+
+}
+.carousel-control-prev:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-control-prev:hover .carousel-control-prev-icon , .carousel-control-next:hover .carousel-control-next-icon{
+transform: scale(1.3);
+}
+.carousel-control-next:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}

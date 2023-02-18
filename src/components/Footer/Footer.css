@@ -1,0 +1,241 @@
+
+
+
+.site-footer {
+    direction: rtl;
+    background-color: #191e2d;
+    padding: 20px 0 0px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    box-shadow: 1px 6px 15px 1px rgba(0, 0, 0, 0.45);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+  .site-footer hr.small {
+    margin: 20px 0;
+  }
+  .site-footer h6 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 1px;
+  }
+  .site-footer a {
+    color: #737373;
+  }
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer-links a {
+    color: #737373;
+  }
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  .footer-links.inline li {
+    display: inline-block;
+  }
+  
+  .site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d;
+  }
+  .copyright-text {
+    margin: 0;
+  }
+  .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe;
+  }
+  .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+  }
+  
+  .containerrr {
+    margin: 0 10%;
+  }
+  .row {
+    display: flex;
+  }
+  .container .row {
+    margin-bottom: 20px;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    grid-area: footer1;
+    flex:1;
+    max-width: 590px !important;
+  }
+  .fast-links{
+    flex: 0 0 auto;
+    grid-area: footer3;
+    flex: 1;
+  }
+  .col-xs-6{
+    flex: 0 0 auto;
+    grid-area: footer2;
+    flex: 1;
+  }
+  .col-md-3 {
+    grid-area: footer4;
+    flex: 0 0 auto;
+    width: 30%;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: calc(100% / 3);
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  
+  .text-justify,
+  .copyright-text {
+    font-size: 13px;
+    color: #707070;
+    font-family: vazir-regular;
+    height: 80px;
+
+  }
+  .copyright-text{
+    padding-right: 14px;
+  }
+  .container p {
+    text-align: justify;
+  }
+  .hr-tag {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .title-footer {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: vazir-regular;
+  }
+  .title-footer::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 125px;
+    background: #13bfb1;
+  }
+  
+  .title-footer1::after {
+    width: 52px;
+  }
+  .title-footer3::after {
+    width: 178px;
+  }
+
+  .title-footer2::after {
+    width: 70px;
+  }
+  .flex-img-footer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+  }
+  .flex-img-footer span{
+    font-family: vazir-regular;
+    font-size: 25px;
+  }
+  .flex-img-footer p {
+    font-size: 13px;
+    color: #707070;
+    font-family: vazir-regular;
+  }
+  .flex-img-footer p:hover {
+    color: #52c6ed;
+  }
+  .flex-img-footer span:hover {
+    color: #52c6ed;
+  }
+  .img-footer {
+    width: 30px;
+    padding-left: 5px;
+  }
+  .footer-low-width{
+    width: 10px ;
+    margin-left: 1px ;
+  }
+  .footer-icon{
+    transition: all 0.3s ease;
+  }
+  .footer-icon:hover {
+    color: rgb(214, 214, 214) !important;
+    transform: translateY(-3px);
+  }
+  .socials-icons {
+    display: flex;
+    margin-top: 20px;
+  }
+  .logo-footer {
+    width: 180px;
+    margin-top: 12px;
+  }
+  .footer-detail{
+    flex: 1;
+  }
+  .vazir-font{
+    font-family: vazir-regular;
+  }

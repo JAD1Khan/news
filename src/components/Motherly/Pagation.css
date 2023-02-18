@@ -1,0 +1,21 @@
+.MuiPagination-root {
+  direction: ltr;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1426px !important;
+  }
+}
+.MuiPagination-ul {
+  background-color: #1e2434;
+  border-radius: 10px;
+}
+.css-wjh20t-MuiPagination-ul {
+  padding: 5px 12px !important  ;
+}
+.MuiPagination-ul li button {
+  color: white;
+}

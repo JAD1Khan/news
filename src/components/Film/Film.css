@@ -1,0 +1,81 @@
+.container-image-swiper{
+  width: 100%;
+}
+.mySwiper {
+  margin-bottom: 60px;
+}
+.image-swiper{
+  background: url('../../../src/Assets/images/Banner-Film/1.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+}
+.image-swiper2{
+  background: url('../../../src/Assets/images/Banner-Film/2.jpg');
+}
+.image-swiper3{
+  background: url('../../../src/Assets/images/Banner-Film/3.jpg');
+}
+.shadow-left-image-swiper{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%);
+  position: relative;
+}
+.shadow-top-image-swiper{
+  background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%);
+
+}
+.container-text{
+    position: absolute;
+    top: 40%;
+    right: 9%;
+}
+.title-text-swiper{
+  color: white;
+  margin-bottom: 30px;
+}
+.play-btn{
+  padding: 5px 17px;
+  background-color: white;
+  color:#5b5b5b ;
+  border: none;
+  margin-left: 10px;
+  font-family: vazir-regular;
+  font-size: 13px;
+}
+.detail-btn{
+  padding: 5px 17px;
+
+  font-family: vazir-regular;
+  font-size: 13px;
+  color: white;
+}
+.swiper {
+    width: 100%;
+  }
+.image {
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+    background-position: 100%;
+   width: 100%;
+   height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.swiper-button-prev:hover {
+    color: #69f0ae;
+    transition: all linear 0.3s;
+  }
+  
+  .swiper-button-next:hover {
+    color: #69f0ae;
+    transition: all linear 0.3s;
+  }
+  .container-swiperr{
+    margin-bottom: 50px;
+  }

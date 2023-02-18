@@ -1,0 +1,158 @@
+.navbar {
+  background-color: #131722;
+  box-shadow: 1px 6px 18px 1px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 1px 6px 18px 1px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 1px 6px 18px 1px rgba(0, 0, 0, 0.45);
+  font-family: vazir-regular;
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+}
+.navbar-dark {
+  width: 100%;
+}
+
+.form-control {
+  flex: none !important;
+  justify-content: end;
+  width: 50% !important;
+  background-color: #ebebeb;
+}
+
+#responsive-navbar-nav {
+  flex-grow: unset !important;
+  flex-basis: unset !important;
+}
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -1px;
+  border-radius: 8px 0 0 8px !important;
+}
+
+.input-group:not(.has-validation)
+  > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(
+    .form-floating
+  ) {
+    background-color: #e6e6e6;
+  width: 90% !important;
+  border-radius: 0 8px 8px 0 !important;
+}
+.input-group {
+  width: auto !important;
+}
+.navbar-nav {
+  --bs-nav-link-padding-y: 0rem;
+}
+
+.nav-hover::after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px var(--bs-nav-link-hover-color);
+  padding-bottom: 2px;
+  border-radius: 1px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  visibility: hidden;
+}
+.nav-hover:hover::after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.dropdown-toggle::after {
+  visibility: visible;
+}
+.dropdown-item {
+  display: flex !important;
+}
+.dropdown-toggle::after {
+  margin-right: 4px;
+  vertical-align: 1px;
+}
+.input-group {
+  width: 50% !important;
+  flex-wrap: nowrap;
+}
+.navbar > .container {
+  justify-content: center;
+}
+
+.signUp {
+  margin-left: 5px;
+}
+.container-menu {
+}
+.nav-link {
+  margin-left: 18px;
+  font-size: 16px !important;
+}
+#button-addon1 {
+  margin-right: -1px;
+  padding: 0.5rem 0.8rem;
+}
+@media only screen and (max-width: 1500px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .container {
+    max-width: 1150px !important;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .container {
+    max-width: 1000px !important;
+  }
+  .nav-link {
+    font-size: 16px !important;
+  }
+}
+
+.login {
+  padding: 0.3rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  border: 1px solid #868e96;
+  font-family: var(--bs-btn-font-family);
+}
+.login:hover {
+  color: white;
+  background-color: #868e96;
+}
+.signUp {
+  background-color: #218838;
+  color: white;
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+}
+.signUp:hover {
+  background-color: #19712e;
+  color: white;
+}
+.icon-navbar {
+  color: #898b91;
+  font-size: 22px;
+  margin: 0 6px;
+  transition: all 0.2s;
+}
+.icon-navbar:hover{
+  color: #b8b8ba;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.container-icon-navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,55 @@
+.container-Mothely {
+  display: flex;
+  justify-content: center;
+  margin: 0 5%;
+}
+.aside-Mothely {
+  flex: 1;
+  margin-top: 77px;
+}
+.container-Mothely-news {
+  margin-top: 30px;
+  margin-left: 20px;
+  flex: 3;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+.news-Mothely {
+  display: flex;
+  background-color: #1e2434;
+  margin-top: 25px;
+  width: 100%;
+  padding: 15px 15px;
+}
+
+.image-Mothely {
+  background-color: rgb(207, 205, 205);
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+}
+.text-Mothely {
+  color: rgb(207, 205, 205);
+  padding-right: 20px;
+  padding-top: 10px;
+  flex: 7;
+  margin-left: 2%;
+}
+
+.description-Mothely {
+  line-height: 36px;
+  font-size: 14px;
+  padding-top: 6px;
+
+  font-family: vazir-regular;
+}
+.title-Mothely {
+  color: white;
+  font-family: vazir-regular;
+  font-size: 20px;
+}

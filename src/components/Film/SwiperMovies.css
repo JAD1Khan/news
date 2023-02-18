@@ -1,0 +1,9 @@
+.title-cpntainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.title-swiper{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

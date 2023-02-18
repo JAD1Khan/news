@@ -1,0 +1,17 @@
+.container-title-MostVisited {
+  padding: 0 10px;
+  margin-top: 20px;
+  width: 360px;
+  height: 500px;
+  background-color: #1e2434;
+}
+.container-title-MostVisited h4 {
+  font-family: vazir-regular;
+  font-size: 18px;
+  padding-top: 20px;
+  color: #cfcdcd;
+  margin-right: 5px;
+}
+.container-title-MostVisited hr {
+  background-color: #b2b1b3;
+}

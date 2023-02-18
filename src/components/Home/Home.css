@@ -1,0 +1,19 @@
+.container-header {
+  margin: 0 7%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.header-Tab {
+  height: 400px;
+  margin-left: 20px;
+  width: 100%;
+}
+.news {
+  border-radius: 10px;
+  background: #23293a;
+  height: 540px;
+  width: 30%;
+}

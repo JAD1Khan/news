@@ -1,0 +1,22 @@
+
+.container-news-MostVisited{
+  display: flex;
+  margin:15px 5px;
+}
+.diamond-icon {
+  padding-top: 5px;
+color: #6c63ff;
+width: 10px;
+flex: 1;
+}
+.text-MostVisited {
+  padding-right: 10px;
+  flex: 30;
+font-size: 12px;
+font-family: vazir-regular !important;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+}

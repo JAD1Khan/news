@@ -1,0 +1,51 @@
+.container-header-tab{
+    display: flex;
+    flex-direction: column;
+}
+.header-image{
+}
+.image-tab{
+    height: 500px;
+    background-position: 50% 50%;
+    width: 100%;
+    border-radius: 5px;
+    background-image: url('../../../Assets/images/Header-image/4.jpg');
+}
+
+.container-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-tab{
+    color: #94969b;
+    width: 100%;
+    height: 40px;
+    background-color: #23293a;
+    border:none;
+    border-right: 1px solid #191e2d;
+    font-family: vazir-regular;
+    transition: all 0.15s;
+}
+.btn-tab-active{
+    margin-top: -10px;
+    border-radius: 3px 3px 0 0 ;
+    height: 50px;
+    font-family: vazir-bold;
+    color: #cacbcc;
+    border: 1px solid #404245;
+    border-bottom: none;
+    background: rgb(28,34,50);
+    background:   linear-gradient(270deg, rgba(28,34,50,1) 0%, rgba(36,43,62,1) 100%);
+    transition: all 0.15s;
+}
+.btn-tab:hover{
+    transition: all 0.15s;
+    border-radius: 3px 3px 0 0 ;
+    font-family: vazir-bold;
+    color: #cacbcc;
+    border: 1px solid #404245;
+    border-bottom: none;
+    background: rgb(28,34,50);
+    background:   linear-gradient(270deg, rgba(28,34,50,1) 0%, rgba(36,43,62,1) 100%);
+}
